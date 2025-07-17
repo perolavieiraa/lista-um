@@ -14,7 +14,7 @@
     </form>
 
     <?php
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $palavra = strtolower(str_replace(' ', '', $_POST['palavra']));
         $invertida = strrev($palavra);
 

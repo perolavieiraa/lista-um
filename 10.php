@@ -12,7 +12,7 @@
     </form>
 
     <?php
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $limite = $_POST['limiteFib'];
         $anterior = 0;
         $atual = 1;

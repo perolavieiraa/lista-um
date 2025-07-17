@@ -14,7 +14,7 @@
     </form>
 
     <?php
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $celsius = $_POST['celsius'];
         $fahrenheit = ($celsius * 9 / 5) + 32;
 

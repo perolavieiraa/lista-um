@@ -14,7 +14,7 @@
     </form>
 
     <?php
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $inicio = $_POST['numero1'];
         $fim = $_POST['numero2'];
         $soma = 0;

@@ -14,7 +14,7 @@
     </form>
 
     <?php
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $texto = strtolower($_POST['frase']);
         $vogais = ['a', 'e', 'i', 'o', 'u'];
         $contador = 0;
