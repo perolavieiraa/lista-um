@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <title>Exercício 7</title>
 </head>
+
 <body>
     <form method="post">
         <label>Digite um número para saber se ele é perfeito:</label>
@@ -30,4 +32,5 @@
     }
     ?>
 </body>
+
 </html>

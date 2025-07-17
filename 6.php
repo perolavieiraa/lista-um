@@ -18,12 +18,12 @@
         if (isset($_POST['numeroDivisores'])) {
             $numero = $_POST['numeroDivisores'];
             echo "Divisores de $numero:<ul>";
-for ($conta = 1; $conta <= $numero; $conta++) {
-    if ($numero % $conta == 0) {
-        echo "<li>$conta</li>";
-    }
-}
-echo "</ul>";
+            for ($conta = 1; $conta <= $numero; $conta++) {
+                if ($numero % $conta == 0) {
+                    echo "<li>$conta</li>";
+                }
+            }
+            echo "</ul>";
         }
     }
     ?>

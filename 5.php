@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <title>Exercício 5</title>
 </head>
+
 <body>
     <form method="post">
         <label for="numerosAmigos">Digite dois números para saber se são números amigos:</label>
@@ -18,7 +20,8 @@
             $num1 = intval($_POST['primeiroNumero']);
             $num2 = intval($_POST['segundoNumero']);
 
-            function somaDivisores($num) {
+            function somaDivisores($num)
+            {
                 $soma = 0;
                 for ($i = 1; $i < $num; $i++) {
                     if ($num % $i == 0) $soma += $i;
@@ -38,4 +41,5 @@
     }
     ?>
 </body>
+
 </html>

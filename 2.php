@@ -17,14 +17,14 @@
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if (isset($_POST['numeroTabuada'])) {
             $numero = $_POST['numeroTabuada'];
-        echo "Tabuada do $numero:<ul>";
-        for ($vezes = 1; $vezes <= 10; $vezes++) {
-            $resultado = $numero * $vezes;
-            echo "<li>$numero x $vezes = $resultado</li>";
+            echo "Tabuada do $numero:<ul>";
+            for ($vezes = 1; $vezes <= 10; $vezes++) {
+                $resultado = $numero * $vezes;
+                echo "<li>$numero x $vezes = $resultado</li>";
+            }
+            echo "</ul>";
         }
-        echo "</ul>";
     }
-}
     ?>
 </body>
 
